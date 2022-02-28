@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="keywords" content="HTML, CSS">
+  <meta name="description" content="Website_Sunnyside">
+  <meta name="author" content="Kamogelo Modibedi">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Contact</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Barlow:wght@600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Fraunces:ital,wght@1,700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Fraunces:ital,wght@0,900;1,700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Barlow:ital,wght@1,600&family=Fraunces:ital,wght@0,900;1,700&display=swap" rel="stylesheet">  
+</head>
+<main>
+  <div>
+    <header id="header">
+        <table id="headerTable">
+          <tr>
+            <td>
+              <!--table data houses logo/home link-->
+              <a href="index.html" class="logo">
+               <img alt="background color" src="images/logo.svg">
+              </a>
+            </td>
+            <td align="right">
+              <!--table data houses nav bar-->
+              <nav>
+              <a href="about.html">About</a>
+              <a href="services.html">Services</a>
+              <a href="projects.html">Projects</a>
+              <a id="button2" href="#">Contact</a>
+              </nav>
+           </td>
+         </tr>
+       </table> 
+    </header>
+</div>
+   <body id="contact-page">
+       <h3>Get in touch</h3>
+       <table id="contact-table">
+        <tr>
+            <td id="text">Phone number</td>
+            <td>
+                <a class="conttext" href= "tel:+27674578200">(+27)67 457 8200</a>
+            </td>
+        </tr>
+        <tr>
+            <td id="text">Email address</td>
+            <td>
+                <a class="conttext" href= "email:info@sunnysidecreatives.com">info@sunnysidecreatives.com</a>
+            </td>
+        </tr>
+        <tr>
+          <td id="text">Physical address</td>
+          <td>
+            <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=1st%20Avenue%20East,%20Parkwood,%20Johannesburg,%202193,%20South%20Africa&t=&z=7&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-a.com"></a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style><a href="https://www.embedgooglemap.net">embed google maps in wordpress</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></div>
+          </td>
+      </tr>
+    </table>
+       <h3>Let's contact you</h3>
+       <form action="https://formspree.io/f/mgedyerv" method="post">
+         <table>
+             <tr>
+                 <td>
+                    <label for="name">Name</label>  
+                 </td>
+                 <td>
+                    <input name="Name" id="name" type="text"> 
+                 </td>
+             </tr>
+             <tr>
+                <td>
+                   <label for="email">Email address</label>  
+                </td>
+                <td>
+                   <input name="Email" id="email" type="alphanumeric"> 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                   <label for="tel">Phone number</label>  
+                </td>
+                <td>
+                   <input name="Tel" id="tel" type="text"> 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="reason"> Service of interest</label>
+                </td>
+                <td>
+                    <select>  
+                          <option value = "select">Select service</option>
+                          <option value = "Graphic design">Graphic design</option>  
+                          <option value = "Photography">Photography</option>  
+                          <option value = "Copywriting">Copywriting</option>
+                          <option value = "Brand consultancy">Brand consultancy</option>
+                          <option value = "Studio hire">Studio hire</option>
+                          <option value = "Search Engine Optimisation">Search Engine Optimisation</option> 
+                    </select>  
+                </td>
+            </tr>
+            <tr>
+                <td>
+                  <textarea placeholder="Message" cols="50px" id="message" name="Message"></textarea>
+                </td>
+            </tr>
+            <tr>
+            <td>
+         <button id="button1" type="submit" value="Submit">Submit</button>
+            </td>
+            </tr>
+         </table>
+       </form>
+      </body>
+       <table id="piclineend">
+        <tr>
+          <td>
+            <img src="images/desktop/image-gallery-milkbottles.jpg" width="105%"height="500px">
+            </td>
+            <td>
+             <img src="images/desktop/image-gallery-orange.jpg"  width="105%"height="500px">
+            </td>
+            <td>
+             <img src="images/desktop/image-gallery-cone.jpg"  width="105%"height="500px">
+            </td>
+            <td>
+              <img src="images/desktop/image-gallery-sugarcubes.jpg"  width="100%"height="500px">
+            </td>
+        </tr>
+      </table>
+  </main>
+  <footer>
+  <table id="footerTable" width="100%">
+    <tr>
+        <td colspan="3">
+           <img class="footerText" src="images/logo.svg">          
+      </td>
+   </tr>
+   <tr>
+     <td align="center" id="footerNav">
+      <a id="footerText" href="about.html">About</a>
+      <a id="footerText" href="services.html">Services</a>
+      <a id="footerText" href="projects.html">Projects</a>
+     </td>
+   </tr>
+   <tr>
+     <td colspan="3">
+      <a href="https://facebook.com/yourusername">
+        <img alt="background color" src="images/icon-facebook.svg">
+     </a>
+     <a href="https://instagram.com/yourusername">
+       <img alt="background color" src="images/icon-instagram.svg">
+     </a>
+      <a href="https://twitter.com/yourusername">
+        <img alt="background color" src="images/icon-twitter.svg">
+     </a>
+     <a href="https://pinterest.com/yourusername">
+       <img alt="background color" src="images/icon-pinterest.svg">
+     </a>
+     </td>
+   </tr>
+  </table>
+  <div id="footnote">
+  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">CodeTribe bootcamp 2022</a>
+  Coded by <a href="#">Kamogelo Modibedi</a>
+  </div>
+  </footer>
+  </html>

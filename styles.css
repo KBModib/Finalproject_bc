@@ -1,0 +1,270 @@
+#headerTable {
+    width: 100%;
+    background-color: #3EBFFF;
+    height: 80px;
+}
+#header{
+   background-color: #3EBFFF;
+}
+.logo{
+    width: 60px;
+    height:80px;
+}
+nav {
+    padding-right :16px;
+}
+a{
+    margin-right:16px;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Barlow', cursive;
+}
+#heading {
+    background-color: #3EBFFF;
+}
+h1{
+    font-family: 'Fraunces', serif;
+    font-size: 50px;
+    color: hsl(0, 0%, 100%);
+    letter-spacing: 10px;
+}
+h3 {
+    font-family: 'Fraunces', serif;
+    font-size: 40px;
+    text-align: left;
+    color: hsl(212, 27%, 19%);
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.graphic-heading {
+    font-family: 'Fraunces', serif;
+    font-size: 40px;
+    text-align: center;
+    color: hsl(167, 40%, 24%);
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #97D7C9;
+}
+.graphic {
+    background-color: #97D7C9;
+}
+.photo {
+    background-color: #61C9FF;
+}
+.photo-heading {
+    font-family: 'Fraunces', serif;
+    font-size: 40px;
+    text-align: center;
+    color: hsl(198, 62%, 26%);
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #61C9FF;
+}
+p {
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    color: hsl(200, 1%, 55%);
+    text-align: left;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.bottomtextgr {
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    color: hsl(167, 40%, 24%);
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #97D7C9;
+}
+ .bottomtextph {
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    color: hsl(198, 62%, 26%);
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #61C9FF;
+ }
+.picHome{
+    column-fill: balance;
+    width: 100%;
+}
+#about {
+    padding: 120px;
+    background-color: hsl(169, 32%, 77%);
+    text-align: left;
+    line-height: 20pt;
+}
+.headingAbout {
+    font-family: 'Fraunces', serif;
+    font-size: 50px;
+    text-align: left;
+    color: hsl(212, 27%, 19%);
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#aboutTable{
+    background-color: hsl(168, 59%, 58%);
+}
+.serviceHeading {
+    font-family: 'Fraunces', serif;
+    font-size: 90px;
+    text-align: center;
+    color: hsl(212, 27%, 19%);
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: hsl(168, 38%, 80%);
+}
+#services{
+    text-align: left;
+    line-height: 30pt;
+    background-color: hsl(168, 38%, 80%);
+}
+#listserv {
+   font-family: 'Barlow', sans-serif;
+    font-size: 14px;
+    color: hsl(200, 1%, 55%);
+    text-align: left;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#textServ {
+    margin-top: auto;
+    padding-top: 0%;
+}
+#projectHead{
+    font-family: 'Fraunces', serif;
+    font-size: 90px;
+    text-align: center;
+    color: hsl(212, 27%, 19%);
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#projTable {
+    width: 100%;
+    background-color: hsl(169, 32%, 90%);
+    align-items: right;
+}
+#contact-page{
+    background-color: hsl(168, 38%, 80%);
+    font-family: 'Barlow', sans-serif;
+    font-size: 14px;
+    color: hsl(200, 1%, 55%);
+    text-align: left;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.conttext{
+    color: rgb(24, 38, 53);
+}
+#button1 {
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color:hsl(212, 27%, 19%);
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    outline: none;
+    cursor: pointer;
+    color: hsl(212, 27%, 19%);
+    background-color: hsl(34, 59%, 89%);
+    box-shadow: 0 9px hsl(342, 85%, 68%);
+    font-family: 'Barlow', sans-serif;
+}
+#button2 {
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    outline: none;
+    cursor: pointer;
+    color: hsl(0, 0%, 100%);
+    background-color: #b3d7e9;
+    box-shadow: 0 9px #91c3db;
+    font-family: 'Barlow', sans-serif;
+}
+#button3 {
+    padding: 8px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    outline: none;
+    cursor: pointer;
+    color: hsl(211, 37%, 15%);
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 0 9px hsl(51, 100%, 49%);
+    font-family: 'Barlow', sans-serif;
+}
+#button4 {
+    padding: 8px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    outline: none;
+    cursor: pointer;
+    color: hsl(211, 37%, 15%);
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 0 9px hsl(7,99%, 70%);
+    font-family: 'Barlow', sans-serif;
+}
+#piclineend{
+    background-color:hsl(168, 59%, 58%);
+    column-fill: balance;
+    margin-top: 0px;
+}
+#footerTable {
+    text-align: center;
+    height:110px;
+    background-color: hsl(168, 59%, 58%);
+    font-size: 18px;
+    
+}
+#footerText {
+    color: hsl(168, 34%, 41%);
+    font-family: 'Fraunces', serif;
+}
+#footerNav {
+    padding: 16px;
+}
+#footnote {
+    background-color: hsl(168, 59%, 58%); 
+    font-family: 'Fraunces', serif;
+    font-size: 10px; 
+    text-align: center;
+}
+  table.no-spacing {
+    border-spacing:0; /* Removes the cell spacing via CSS */
+    border-collapse: collapse;  /* Optional - if you don't want to have double border where cells touch */
+}
+h4{
+    font-family: 'Fraunces', serif;
+    font-size: 14px;
+    letter-spacing: 5px;
+    text-align: center;
+    color: hsl(210, 4%, 67%);
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.names {
+    font-family: 'Fraunces', serif;
+    color: hsl(212, 27%, 19%);
+    text-align: center;
+}
+.clientText {
+    text-align: center;
+    font-size: small;
+    font-family: 'Fraunces', serif;
+    line-height: 15pt;
+}
